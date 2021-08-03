@@ -1,9 +1,11 @@
 body{
     font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 4vmin;
 }
 header {
     width: 100%;
     font-size: 3vmin;
+    
 }
 header .icons-container{
     display: flex;
@@ -98,4 +100,7 @@ main{
 .search-icon, .input-voice{
     background-color: transparent;
     border: none;
+}
+p{
+    text-align: center;
 }
