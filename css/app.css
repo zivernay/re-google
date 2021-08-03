@@ -1,3 +1,6 @@
+body{
+    font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+}
 header {
     width: 100%;
     font-size: 3vmin;
@@ -60,4 +63,38 @@ main{
 .google-logo{
     width: 60%;
     margin-top: 5vmax;
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    height: 8vmin;
+    margin: 5vmin auto;
+    border-radius: 4vmin;
+    border: 3px solid rgba(165, 163, 163, 0.514);
+}
+.search-container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1vmin;
+}
+.input-text{
+    width: 80%;
+    height: 95%;
+}
+.input-text input{
+    width: 100%;
+    height: 100%;
+    border : none;
+}
+.input-text input:focus{
+    outline: none;
+    font-size: 4vmin;
+}
+.search-icon, .input-voice{
+    background-color: transparent;
+    border: none;
 }
