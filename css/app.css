@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    font-size: 3vmin;
+}
+header .icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.side-menu-container{
+    width: 10%;
+    padding: 0.5em;
+}
+
+.options-container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    width: 20%;
+}
+.options-container a{
+    margin: 0.5em;
+}
+.blank-space{
+    width: 40%;
+}
+.apps-container{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    align-items: center;
+    justify-content: space-around;
+}
+.app-menu{
+    width: 35%;
+}
+.prof-pic{
+    width: 50%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.round-thumbnail{
+    border-radius: 50%;
+}
