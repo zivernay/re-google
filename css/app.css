@@ -46,3 +46,18 @@ img{
 .round-thumbnail{
     border-radius: 50%;
 }
+
+main{
+    margin-top: 1vmin;
+    width: 100%;
+}
+.main-logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1vmax;
+}
+.google-logo{
+    width: 60%;
+    margin-top: 5vmax;
+}
