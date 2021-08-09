@@ -1,17 +1,3 @@
-/*float clear-fix
-
-.float-cont{
-    clear:both;
-}
-.float-cont::before, .float-cont::after{
-    content: "";
-    display: table;
-}
-.float-cont::after{
-    clear: both;
-}
-*/
-
 body{
     min-height: 100%;
     padding-bottom: 70px;
